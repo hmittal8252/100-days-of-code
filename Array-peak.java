@@ -12,7 +12,7 @@ public class Main
 		}
 		System.out.println("Peak element is "+peak(arr,n));
 	}
-	public static int peak(int []arr,int n){
+	public static int peak(int []arr ,int n){
 	    int low=0;
 	    int high=n-1;
 	    while(low<=high){
